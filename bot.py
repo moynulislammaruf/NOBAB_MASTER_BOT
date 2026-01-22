@@ -9,8 +9,8 @@ import os
 # ===========================
 # CONFIGURATION
 # ===========================
-API_TOKEN = os.getenv("8508138633:AAE6NRVSAXXrkzFCA8DLRJb389xroV2HqCA")  # Bot Token from Render Env Variables
-OWNER_ID = int(os.getenv("5988572342", "0"))
+API_TOKEN = os.getenv("API_TOKEN")  # Bot Token from Render Env Variables
+OWNER_ID = int(os.getenv("OWNER_ID", "0"))
 MASTER_CHANNELS = ["@NOBAB_MASTER_BOT_CHANNEL", "@cryptomininginformer"]
 XROCKET_API_KEY = os.getenv("XROCKET_API_KEY")  # Optional for auto withdraw
 CURRENCY = "USDT"
